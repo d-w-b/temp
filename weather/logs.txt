@@ -1,0 +1,151 @@
+Method getOne invoked.
+Method getOne finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method updateOne invoked.
+Method updateOne finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method getOne invoked.
+Method getOne finished successfully
+Method addOne invoked.
+Method addOne finished successfully
+Method addOne invoked.
+Method addOne threw an exception 
+### Error updating database.  Cause: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_7 ON PUBLIC.WEATHER(DATE, REGION) VALUES ( /* key:5 */ DATE '2024-11-27', 'Seoul')"; SQL statement:
+INSERT INTO WEATHER (DATE, REGION, WEATHER, TEMPERATURE)
+        VALUES (?, ?, ?, ?) [23505-232]
+### The error may exist in file [C:\Users\frogq\Downloads\weather\weather\target\classes\mappers\WeatherMapper.xml]
+### The error may involve com.example.config.WeatherMapper.insertWeather-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO WEATHER (DATE, REGION, WEATHER, TEMPERATURE)         VALUES (?, ?, ?, ?)
+### Cause: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_7 ON PUBLIC.WEATHER(DATE, REGION) VALUES ( /* key:5 */ DATE '2024-11-27', 'Seoul')"; SQL statement:
+INSERT INTO WEATHER (DATE, REGION, WEATHER, TEMPERATURE)
+        VALUES (?, ?, ?, ?) [23505-232]
+; Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_7 ON PUBLIC.WEATHER(DATE, REGION) VALUES ( /* key:5 */ DATE '2024-11-27', 'Seoul')"; SQL statement:
+INSERT INTO WEATHER (DATE, REGION, WEATHER, TEMPERATURE)
+        VALUES (?, ?, ?, ?) [23505-232]
+Method getAll invoked.
+Method getAll finished successfully
+Method deleteOne invoked.
+Method deleteOne finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method addOne invoked.
+Method addOne finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method getOne invoked.
+Method getOne finished successfully
+Method getOne invoked.
+Method getOne finished successfully
+Method getOne invoked.
+Method getOne finished successfully
+Method getOne invoked.
+Method getOne finished successfully
+Method addOne invoked.
+Method addOne threw an exception 
+### Error updating database.  Cause: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_7 ON PUBLIC.WEATHER(DATE, REGION) VALUES ( /* key:7 */ DATE '2024-11-27', 'Seoul')"; SQL statement:
+INSERT INTO WEATHER (DATE, REGION, WEATHER, TEMPERATURE)
+        VALUES (?, ?, ?, ?) [23505-232]
+### The error may exist in file [C:\Users\frogq\Downloads\weather\weather\target\classes\mappers\WeatherMapper.xml]
+### The error may involve com.example.config.WeatherMapper.insertWeather-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO WEATHER (DATE, REGION, WEATHER, TEMPERATURE)         VALUES (?, ?, ?, ?)
+### Cause: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_7 ON PUBLIC.WEATHER(DATE, REGION) VALUES ( /* key:7 */ DATE '2024-11-27', 'Seoul')"; SQL statement:
+INSERT INTO WEATHER (DATE, REGION, WEATHER, TEMPERATURE)
+        VALUES (?, ?, ?, ?) [23505-232]
+; Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_7 ON PUBLIC.WEATHER(DATE, REGION) VALUES ( /* key:7 */ DATE '2024-11-27', 'Seoul')"; SQL statement:
+INSERT INTO WEATHER (DATE, REGION, WEATHER, TEMPERATURE)
+        VALUES (?, ?, ?, ?) [23505-232]
+Method getAll invoked.
+Method getAll finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method addOne invoked.
+Method addOne threw an exception 
+### Error updating database.  Cause: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_7 ON PUBLIC.WEATHER(DATE, REGION) VALUES ( /* key:7 */ DATE '2024-11-27', 'Seoul')"; SQL statement:
+INSERT INTO WEATHER (DATE, REGION, WEATHER, TEMPERATURE)
+        VALUES (?, ?, ?, ?) [23505-232]
+### The error may exist in file [C:\Users\frogq\Downloads\weather\weather\target\classes\mappers\WeatherMapper.xml]
+### The error may involve com.example.config.WeatherMapper.insertWeather-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO WEATHER (DATE, REGION, WEATHER, TEMPERATURE)         VALUES (?, ?, ?, ?)
+### Cause: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_7 ON PUBLIC.WEATHER(DATE, REGION) VALUES ( /* key:7 */ DATE '2024-11-27', 'Seoul')"; SQL statement:
+INSERT INTO WEATHER (DATE, REGION, WEATHER, TEMPERATURE)
+        VALUES (?, ?, ?, ?) [23505-232]
+; Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_7 ON PUBLIC.WEATHER(DATE, REGION) VALUES ( /* key:7 */ DATE '2024-11-27', 'Seoul')"; SQL statement:
+INSERT INTO WEATHER (DATE, REGION, WEATHER, TEMPERATURE)
+        VALUES (?, ?, ?, ?) [23505-232]
+Method getAll invoked.
+Method getAll finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method deleteOne invoked.
+Method deleteOne finished successfully
+Method addOne invoked.
+Method addOne finished successfully
+Method addOne invoked.
+Method addOne finished successfully
+Method addOne invoked.
+Method addOne finished successfully
+Method addOne invoked.
+Method addOne finished successfully
+Method deleteOne invoked.
+Method deleteOne finished successfully
+Method addOne invoked.
+Method addOne finished successfully
+Method addOne invoked.
+Method addOne finished successfully
+Method addOne invoked.
+Method addOne finished successfully
+Method addOne invoked.
+Method addOne finished successfully
+Method getOne invoked.
+Method getOne finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method getOne invoked.
+Method getOne finished successfully
+Method getOne invoked.
+Method getOne finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method addOne invoked.
+Method addOne finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method addOne invoked.
+Method addOne finished successfully
+Method addOne invoked.
+Method addOne finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method addOne invoked.
+Method addOne finished successfully
+Method updateOne invoked.
+Method updateOne finished successfully
+Method getOne invoked.
+Method getOne finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method getAll invoked.
+Method getAll finished successfully
+Method getOne invoked.
+Method getOne finished successfully
+Method getAll invoked.
+Method getAll finished successfully

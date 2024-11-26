@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.example.mapper.WeatherMapper">
+    <!--    WEATHER TABLE                        -->
+    <!--    (날짜, 지역)이 복합키로 지정되어 있습니다. -->
+
+    <!-- 모든 날씨 정보 조회 -->
+    <select id="findAll" resultType="com.example.model.Weather">
+        SELECT
+        *
+        FROM WEATHER
+    </select>
+
+    <!-- 날짜와 지역을 기준으로 날씨 정보를 조회 -->
+    <select id="findByDateAndRegion" parameterType="java.util.Map" resultType="com.example.model.Weather">
+        SELECT
+        *
+        FROM WEATHER
+        WHERE DATE = #{date} AND REGION = #{region}
+    </select>
+
+    <!-- 날씨 정보 추가 -->
+    <insert id="insertWeather" parameterType="com.example.model.Weather">
+        INSERT INTO WEATHER (DATE, REGION, WEATHER, TEMPERATURE)
+        VALUES (#{date}, #{region}, #{weather}, #{temperature})
+    </insert>
+
+    <!-- 날씨 정보 수정 -->
+    <update id="updateWeather" parameterType="com.example.model.Weather">
+        UPDATE WEATHER
+        SET WEATHER = #{weather}, TEMPERATURE = #{temperature}
+        WHERE DATE = #{date} AND REGION = #{region}
+    </update>
+
+    <!-- 날씨 정보 삭제 -->
+    <delete id="deleteWeather" parameterType="java.util.Map">
+        DELETE FROM WEATHER
+        WHERE DATE = #{date} AND REGION = #{region}
+    </delete>
+
+</mapper>
