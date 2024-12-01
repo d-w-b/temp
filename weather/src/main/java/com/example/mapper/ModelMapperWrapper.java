@@ -17,3 +17,4 @@ public class ModelMapperWrapper implements IModelMapper
         return modelMapper.map(source, destinationType);
     }
 }
+

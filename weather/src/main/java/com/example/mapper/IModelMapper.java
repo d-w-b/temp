@@ -6,3 +6,6 @@ public interface IModelMapper
 {
     <D> D map(Object source, Class<D> destinationType);
 }
+
+
+

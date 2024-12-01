@@ -2,7 +2,7 @@ package com.example.service;
 
 import com.example.dto.WeatherDTO;
 import com.example.mapper.IModelMapper;
-import com.example.mapper.WeatherMapper;
+import com.example.mapper.IWeatherMapper;
 import com.example.model.Weather;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,12 +14,12 @@ import java.util.stream.Collectors;
 @Service
 public class WeatherService {
 
-    private final WeatherMapper weatherMapper;
+    private final IWeatherMapper weatherMapper;
     private final IModelMapper modelMapper;
 
 
     @Autowired
-    WeatherService(WeatherMapper weatherMapper, IModelMapper modelMapper)
+    WeatherService(IWeatherMapper weatherMapper, IModelMapper modelMapper)
     {
         this.weatherMapper = weatherMapper;
         this.modelMapper = modelMapper;
